@@ -9,7 +9,7 @@ const Menu = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Sgned in as: <a href="#login">Mark Otto</a>
+            Signed in as: <a href="#login">Mark Otto</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
