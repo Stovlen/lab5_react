@@ -1,6 +1,27 @@
 import React from "react";
 import ShopCard from "../shop-card/ShopCard";
 
+const ListComponent = () => {
+  const shopList = [
+    {
+      id: 1,
+      name: "Яблуко",
+      description: "10 грн",
+      img: require("../../imgs/13.jpg"),
+    },
+    {
+      id: 2,
+      name: "Слива",
+      description: "15 грн",
+      img: require("../../imgs/12.jpg"),
+    },
+    {
+      id: 3,
+      name: "Апельсин",
+      description: "20 грн",
+      img: require("../../imgs/11.jpg"),
+    },
+  ];
 
   return (
     <section className="app">
@@ -20,6 +41,6 @@ import ShopCard from "../shop-card/ShopCard";
       </main>
     </section>
   );
-
+};
 
 export default ListComponent;
