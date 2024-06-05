@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Menu from "./components/menu/Menu";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <section className="app">
+      <header className="app-header">
+        <Menu />
+      </header>
+    </section>
   );
 }
 
